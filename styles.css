@@ -16,5 +16,6 @@
   height: 150px;
   background-color: #efb762;
   margin: 20px auto;
-  padding: 1px;
+  /*overflow hidden permet de rendre les dimensions d'origine à la boîte "canvas"*/
+  overflow: hidden;
 }
