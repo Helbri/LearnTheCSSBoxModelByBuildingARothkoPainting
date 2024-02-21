@@ -20,8 +20,11 @@
   height: 150px;
   background-color: #efb762;
   margin: 20px auto;
+  /* offset-x | offset-y | blur-radius | spread-radius | color - position x et y, intensité et étalement de l'ombre, couleur de l'ombre*/
   box-shadow: 0 0 3px 3px #efb762;
+  /*border-radius: coins haut-gauche haut-droit bas-droit bas-gauche*/
   border-radius:9px;
+  transform: rotate(-0.6deg);
 }
 
 .two {
@@ -31,8 +34,8 @@
   /* haut | horizontal | bas */
   margin: 0 auto 20px;
   box-shadow: 0 0 3px 3px #8f0401;
-  /*border-radius: coins haut-gauche haut-droit bas-droit bas-gauche*/
   border-radius: 8px 10px 8px 10px;
+  transform: rotate(0.4deg);
 }
 
 .one,.two{
@@ -46,5 +49,7 @@
   margin: auto;
   filter: blur(2px);
   box-shadow: 0 0 5px 5px #b20403;
+  border-radius: 30px 25px 60px 12px;
+  transform: rotate(-0.2deg);
 }
-/* step 41 */
+/* step 45 - fin de la leçon*/
